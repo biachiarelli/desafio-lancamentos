@@ -6,6 +6,12 @@ Aplicação em React utilizando a API https://github.com/r-spacex/SpaceX-API/ e 
 
 
 
+Para acessar o sistema em funcionamento: 
+
+https://desafio-lancamento.herokuapp.com/
+
+
+
 ### **Imagens do sistema**
 
 ![](https://github.com/biachiarelli/desafio-lancamentos/blob/main/img-1.png)
@@ -41,6 +47,8 @@ npm start
 ```
 localhost:3000/
 ```
+
+
 
 
 
