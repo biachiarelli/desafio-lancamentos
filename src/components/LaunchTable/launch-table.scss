@@ -1,0 +1,55 @@
+.LaunchTable {
+  margin: 40px 32px;
+  overflow: auto;
+
+  @include max-md {
+    margin: 40px 8px;
+  }
+
+  &-table {
+    width: 100%;
+    &__header {
+      text-align: left;
+      font-weight: 600;
+      font-size: 16px;
+      color: $gray-2;
+      padding: 12px 8px;
+      border-bottom: 1px solid $gray-5;
+    }
+
+    &__data {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      color: $gray-2;
+      padding: 8px 8px;
+      border-bottom: 1px solid $gray-5;
+    }
+
+    &__button {
+      background: $style-6;
+      border: $style-8;
+      color: $gray-2;
+      box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.9),
+        4px 4px 10px rgba(138, 155, 189, 0.4);
+      font-weight: normal;
+      font-size: 14px;
+      text-align: center;
+      height: 40px;
+      text-decoration: none;
+      border-radius: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 80px;
+
+      &:hover {
+        background: $style-6;
+        border: $style-7;
+        box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.9),
+          inset 4px 4px 10px rgba(138, 155, 189, 0.3);
+        border-radius: 60px;
+      }
+    }
+  }
+}

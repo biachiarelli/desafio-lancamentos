@@ -1,0 +1,7 @@
+.Card {
+  background: $style-6;
+  box-shadow: 4px 4px 16px rgba(138, 155, 189, 0.48), -5px -5px 18px $white;
+  border-radius: 10px;
+  height: 100%;
+  transition: height 4s;
+}

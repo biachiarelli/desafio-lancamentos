@@ -1,0 +1,58 @@
+.Button {
+  .primary {
+    background: $style-11;
+    color: $white;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.9),
+      4px 4px 10px rgba(138, 155, 189, 0.4);
+    text-align: center;
+    font-size: 14px;
+
+    &:hover {
+      background: $style-12;
+      color: $purple-1;
+    }
+
+    @include max-sm {
+      width: auto;
+      padding: 8px 16px;
+    }
+  }
+
+  .secondary {
+    background: $style-6;
+    border: $style-8;
+    color: $gray-2;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.9),
+      4px 4px 10px rgba(138, 155, 189, 0.4);
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+
+    &:hover {
+      background: $style-6;
+      border: $style-7;
+      box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.9),
+        inset 4px 4px 10px rgba(138, 155, 189, 0.3);
+      border-radius: 60px;
+    }
+
+    @include max-sm {
+      width: auto;
+      padding: 8px 16px;
+    }
+  }
+}

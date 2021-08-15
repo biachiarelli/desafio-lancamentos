@@ -1,0 +1,61 @@
+.Navbar {
+  background: $style-11;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 32px;
+
+  @include max-sm {
+    padding: 0 24px;
+  }
+
+  &-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    grid-gap: 24px;
+    &__img {
+      height: 40px;
+      width: auto;
+
+      @include max-sm {
+        height: 32px;
+      }
+    }
+
+    &__title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+      color: $white;
+
+      @include max-sm {
+        display: none;
+      }
+    }
+  }
+
+  &-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 32px;
+
+    @include max-sm {
+      grid-auto-flow: row;
+      grid-gap: 8px;
+    }
+    &__link {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-decoration: none;
+      color: $white;
+
+      @include max-sm {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+}

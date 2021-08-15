@@ -1,0 +1,53 @@
+//Breakpoints
+// Small devices (landscape phones, 576px and up)
+@mixin min-sm {
+  @media only screen and (min-width: $min-sm) {
+    @content;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@mixin min-md {
+  @media only screen and (min-width: $min-md) {
+    @content;
+  }
+}
+// Large devices (desktops, 992px and up)
+@mixin min-lg {
+  @media only screen and (min-width: $min-lg) {
+    @content;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@mixin min-xl {
+  @media only screen and (min-width: $min-xl) {
+    @content;
+  }
+}
+@mixin max-xs {
+  @media only screen and (max-width: $max-xs) {
+    @content;
+  }
+}
+@mixin max-sm {
+  @media only screen and (max-width: $max-sm) {
+    @content;
+  }
+}
+
+@mixin max-md {
+  @media only screen and (max-width: $max-md) {
+    @content;
+  }
+}
+
+@mixin max-lg {
+  @media only screen and (max-width: $max-lg) {
+    @content;
+  }
+}
+
+@mixin max-xl {
+  @media only screen and (max-width: $max-xl) {
+    @content;
+  }
+}
