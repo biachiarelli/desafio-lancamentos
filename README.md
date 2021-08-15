@@ -1,20 +1,18 @@
-**##Lançamentos**
+# **Lançamentos**
 
 
-
-**###Descrição:**
 
 Aplicação em React utilizando a API https://github.com/r-spacex/SpaceX-API/ e apresentando as informações de último lançamento, próximo lançamento, e listas de últimos lançamentos e próximos lançamentos.
 
 
 
-**###Imagens do sistema**
+### **Imagens do sistema**
 
 ![](D:\Estudo\React\desafio-lancamentos\img-1.png)
 
 ![](D:\Estudo\React\desafio-lancamentos\img-2.png)
 
-**##Instruções para instalação**
+## **Instruções para instalação**
 
 
 
@@ -22,9 +20,7 @@ Para clonar esse projeto é necessário ter o`node` e `npm` instalados globalmen
 
 
 
-Instalação:
-
-
+#### Instalação:
 
 ```
 npm install
@@ -32,9 +28,7 @@ npm install
 
 
 
-Para iniciar o servidor:
-
-
+#### Para iniciar o servidor:
 
 ```
 npm start
@@ -42,9 +36,7 @@ npm start
 
 
 
-Para acessar a aplicação:
-
-
+#### Para acessar a aplicação:
 
 ```
 localhost:3000/
