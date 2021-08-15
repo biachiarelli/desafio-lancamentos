@@ -8,9 +8,9 @@ Aplicação em React utilizando a API https://github.com/r-spacex/SpaceX-API/ e 
 
 ### **Imagens do sistema**
 
-![](D:\Estudo\React\desafio-lancamentos\img-1.png)
+![](https://github.com/biachiarelli/desafio-lancamentos/blob/main/img-1.png)
 
-![](D:\Estudo\React\desafio-lancamentos\img-2.png)
+![](https://github.com/biachiarelli/desafio-lancamentos/blob/main/img-2.png)
 
 ## **Instruções para instalação**
 
